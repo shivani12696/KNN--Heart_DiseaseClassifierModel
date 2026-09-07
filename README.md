@@ -1,17 +1,19 @@
-age-------      Age
-sex-----        Sex
-cp------        Chest Pain Type   =>>> Type of chest pain
-trestbps-       Resting Blood Pressure =>> Resting blood pressure (mm Hg)
-chol-----       Serum Cholesterol   =>>>> Cholesterol level (mg/dL)
-fbs------       Fasting Blood Sugar    =>>>  Whether fasting blood sugar is > 120 mg/dL
-restecg-----    Resting Electrocardiographic Results => Result of resting ECG
-thalach------   Maximum Heart Rate Achieved => Maximum heart rate during exercise
-exang--------   Exercise-Induced Angina => Whether exercise causes angina
-oldpeak------  ST Depression Induced by Exercise => ST depression caused by exercise relative to rest
-slope--------  Slope of Peak Exercise ST Segment => Slope of the peak exercise ST segment
-ca------------ Number of Major Vessels => Number of major vessels (0–3) visible by fluoroscopy
-thal---------- Thalassemia => Blood disorder/thalassemia-related test result
-target-------- Target =>> Whether heart disease is present, depending on the dataset's encoding
+| Feature | Description |
+|--------|-------------|
+| `age` | Age of the patient |
+| `sex` | Sex of the patient |
+| `cp` | Chest pain type |
+| `trestbps` | Resting blood pressure |
+| `chol` | Serum cholesterol |
+| `fbs` | Fasting blood sugar |
+| `restecg` | Resting electrocardiographic results |
+| `thalach` | Maximum heart rate achieved |
+| `exang` | Exercise-induced angina |
+| `oldpeak` | ST depression induced by exercise |
+| `slope` | Slope of peak exercise ST segment |
+| `ca` | Number of major vessels |
+| `thal` | Thalassemia-related result |
+| `target` | Heart disease classification |
 
 # ❤️ Heart Disease Prediction using K-Nearest Neighbors (KNN)
 
